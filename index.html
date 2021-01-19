@@ -4,46 +4,53 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Wildlife</title>
+    <link rel="stylesheet" href="node_modules/normalize.css/normalize.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div class="wrapper">
-        <img src="assets/fox.png" alt="fox">
-        <header class="header">
-            <div class="container">
-                <div class="header-logo">
-                     <a class="header__logo-link" href="#">
-                        <img class="header__logo-img" src="assets/logo.svg" width="69px" height="60px" alt="logo">
-                     </a>
-                     <h1 class="header__logo-title">WILDLIFE </h1>
+        <div class="wrapper__background-img">
+            <header class="header">
+                <div class="container1">
+                    <div class="header-logo">
+                         <a class="header__logo-link" href="#">
+                            <img class="header__logo-img" src="assets/logo.svg" width="69px" height="60px" alt="logo">
+                         </a>
+                         <h1 class="header__logo-title">WILDLIFE </h1>
+                    </div>
+                    <nav class="header-nav"> 
+                        <ul class="header-nav__ul">
+                            <li class="nav__item"><a class="nav__link nav_active" href="#">Blog</a></li>
+                            <li class="nav__item"><a class="nav__link nav_active" href="#">Contacts</a></li>
+                            <li class="nav__item"><a class="nav__link  " href="#"><svg class="nav_active" width="23" height="23" viewBox="0 0 32 32"  xmlns="http://www.w3.org/2000/svg">
+                                <path d="M12.688 18.688C16.001 18.688 18.688 16 18.688 12.688C18.688 9.376 16 6.688 12.688 6.688C9.376 6.688 6.688 9.376 6.688 12.688C6.688 16 9.376 18.688 12.688 18.688ZM20.688 18.688L27.313 25.313L25.313 27.313L18.688 20.688V19.625L18.313 19.25C16.813 20.563 14.813 21.313 12.688 21.313C7.875 21.313 4 17.5 4 12.688C4 7.876 7.875 4 12.688 4C17.501 4 21.313 7.875 21.313 12.688C21.313 14.813 20.563 16.813 19.25 18.313L19.625 18.688H20.688Z" fill="white"/>
+                                </svg></a></li>
+                            <li class="nav__item"><button class="button button__borders button_active-default">Sign in</button></li>
+                        </ul>
+                    </nav>
                 </div>
-                <nav class="header-nav">
-                    <ul class="nav">
-                        <li class="nav__item"><a class="nav__link" href="#"></a></li>
-                        <li class="nav__item"><a class="nav__link" href="#"></a></li>
-                        <li class="nav__item"><a class="nav__link" href="#"></a><img src="assets/Search.svg" width="32px" height="32px" alt="Search"></li>
-                        <li class="nav__item"><button class="button button__borders button_active">Sign in</button></li>
-                    </ul>
-                </nav>
-            </div>
-        </header>
-        <section class="survival">
-            <div class="container">
-                <h2 class="survival-title">Survival</h2>
-                <p class="survival-subtitle">What this means is that we exist to help protect our environment and do in numbers of ways. 
-                    You can save the planet by donation.
-                </p>
-                <div class="survival__button">
-                    <button class="button button__borders button_active">Donate</button>
+            </header>
+            <section class="survival">
+                <div class="container2">
+                    <h2 class="survival-title">Survival</h2>
+                    <p class="survival__subtitle survival__subtitle-size-container">What this means is that we exist to help protect our environment and do in numbers of ways. 
+                        You can save the planet by donation.
+                    </p>
+                    <div class="survival__button">
+                        <button class="button2 button__borders2  button_active-full">Donate</button>
+                    </div>
                 </div>
-            </div>
-        </section>
+            </section>
+
+        </div>
+        
     </div>
    
       
         <section class="latest-articles">
+
             <div class="container">
                 <h2 class="latest-articles__title">Latest articles</h2>
                 <p class="latest-articles__subtitle">Breaking news from the wild</p>
