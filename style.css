@@ -179,7 +179,6 @@ padding-top: 49px;
 }
 
 .latest-articles__title {
-    
 font-family: Open Sans;
 font-style: normal;
 font-weight: normal;
@@ -189,6 +188,110 @@ text-align: center;
 color: #333333;
 margin: 0;
 padding-top: 120px;
+}
+.latest-articles__subtitle {
+    font-family: Open Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 2.4em;
+line-height: 1.5em;
+text-align: center;
+color: #666666;
+}
+.container-slider {
+    padding-top: 120px;
+    padding-left: 122px;
+    width: 1200px;
+    display: flex;
+    justify-content: space-between;
+}
+.latest-articles-slider__item {
+    position: relative;
+    width: 300px;
+    height: 360px;
+}
+.slider__img {
+    position: absolute;
+}
+.latest-articles-slider__title-pos1 {
+    position: absolute;
+    width: 52px;
+    height: 36px;
+    top: 247px;
+    left: 124px;
+}
+.slider__title-text {
+    font-family: Open Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 2.2em;
+line-height: 1.5em;
+color: #F7F7F7;
 
 }
+.latest-articles-slider__subtitle-pos1 {
+    position: absolute;
+    height: 27px;
+    top: 293px;
+    left: 57px;
+    width: 186px;
+}
+.slider__subtitle-text {
+    font-family: Open Sans;
+    font-weight: normal;
+    font-size: 1.7em;
+    line-height: 1.6em;
+    color: #F7F7F7;
+    font-style: normal;
+}
 
+.latest-articles-slider__title-pos2 {
+    position: absolute;
+    width: 52px;
+    height: 36px;
+    top: 247px;
+    left: 109px;
+}
+.latest-articles-slider__subtitle-pos2 {
+    position: absolute;
+    width: 152px;
+    height: 27px;
+    top: 293px;
+    left: 74px;
+}
+.latest-articles-slider__title-pos3 {
+    position: absolute;
+    width: 43px;
+    height: 36px;
+    top: 247px;
+    left: 129px;
+}
+.latest-articles-slider__subtitle-pos3 {
+    position: absolute;
+    width: 125px;
+    height: 27px;
+    top: 293px;
+    left: 88px;
+}
+.latest-articles-slider__control {
+    display: inline-flex;
+    align-items: center;
+}
+.slider_button-active {
+    fill:inherit;
+stroke:inherit;
+stroke-width:inherit;
+    cursor: pointer;
+    color: #F7F7F7;
+transition: 1s linear; 
+}
+.slider_button-active:hover {
+    cursor: pointer;
+    
+    fill: #E39128; 
+   }
+.slider_button-active:active {
+    cursor: pointer;
+    
+    fill: #8F5613;; 
+   }
