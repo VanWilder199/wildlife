@@ -14,17 +14,17 @@
         <div class="wrapper__background-img">
             <header class="header">
                 <div class="container1">
-                    <div class="header-logo">
+                    <div class="logo">
                          <a class="header__logo-link" href="#">
                             <img class="header__logo-img" src="assets/logo.svg" width="69px" height="60px" alt="logo">
                          </a>
-                         <h1 class="header__logo-title">WILDLIFE </h1>
+                         <h1 class="logo-title">WILDLIFE </h1>
                     </div>
                     <nav class="header-nav"> 
-                        <ul class="header-nav__ul">
+                        <ul class="nav__ul">
                             <li class="nav__item"><a class="nav__link nav_active" href="#">Blog</a></li>
                             <li class="nav__item"><a class="nav__link nav_active" href="#">Contacts</a></li>
-                            <li class="nav__item"><a class="nav__link  " href="#"><svg class="nav_active" width="23" height="23" viewBox="0 0 32 32"  xmlns="http://www.w3.org/2000/svg">
+                            <li class="nav__item"><a class="nav__link  " href="#"><svg class="nav_active-search" width="23"  height="23" viewBox="0 0 32 32"  xmlns="http://www.w3.org/2000/svg">
                                 <path d="M12.688 18.688C16.001 18.688 18.688 16 18.688 12.688C18.688 9.376 16 6.688 12.688 6.688C9.376 6.688 6.688 9.376 6.688 12.688C6.688 16 9.376 18.688 12.688 18.688ZM20.688 18.688L27.313 25.313L25.313 27.313L18.688 20.688V19.625L18.313 19.25C16.813 20.563 14.813 21.313 12.688 21.313C7.875 21.313 4 17.5 4 12.688C4 7.876 7.875 4 12.688 4C17.501 4 21.313 7.875 21.313 12.688C21.313 14.813 20.563 16.813 19.25 18.313L19.625 18.688H20.688Z" fill="white"/>
                                 </svg></a></li>
                             <li class="nav__item"><button class="button button__borders button_active-default">Sign in</button></li>
@@ -58,6 +58,7 @@
                 <div class="latest-articles__slider">
                     <div class="container-slider">
                         <a class="latest-articles-slider__control slider_button-active" href="#" role="button"> 
+                           
                             <img src="assets/left.svg" width="26" height="39" alt="left">  </a>
                        <div class="latest-articles-slider__item">
                             <img class="slider__img" src="assets/deer.png" alt="deer" class="latest-articles-slider__item-img">
@@ -82,11 +83,11 @@
                      </div>
                 </div>
             <div class="container">
-                <h3 class="latest-articles__input-title"></h3>
+                <h3 class="latest-articles__input-title">Get notified about new amazing articles</h3>
                 <div class="latest-articles__input">
-                    <form action="" class="input__form">
-                        <input type="email" name="" id="">
-                        <input type="button" value="">
+                    <form action="#" class="input__form">
+                        <input class="input" type="text" placeholder="Email" >
+                        <input class="button2   button_active-full" type="submit" value="Send">
                     </form>
                 </div>
             </div>
@@ -94,33 +95,44 @@
             
         </section>
     <footer class="footer">
-        <div class="container">
-            <div class="footer-logo">
+        <div class="footer__container">
+            
+            <div class="logo">
                 <a class="footer__logo-link" href="#">
                    <img class="footer__logo-img" src="assets/logo.svg" width="69px" height="60px" alt="logo">
                 </a>
-                <h1 class="footer__logo-title">WILDLIFE </h1>
+                <h1 class="logo-title">WILDLIFE </h1>
            </div>
-           <nav class="footer-nav">
-            <ul class="footer-nav__ul">
-                <li class="footer-nav__item"><a class="footer-nav__link" href="#">Articles</a></li>
-                <li class="footer-nav__item"><a class="footer-nav__link" href="#">About us</a></li>
-                <li class="footer-nav__item"><a class="footer-nav__link" href="#">Learn more</a></li>
-            </ul>
-            <ul class="footer-nav__ul-img">
-                <li class="footer-nav__img"><a class="footer-nav__link" href="#">
-                    <img class="footer__nav-img" src="assets/facebook.svg" width="40px" height="40px" alt="facebook"></a></li>
-                <li class="footer-nav__img"><a class="footer-nav__link" href="#"> 
-                    <img class="footer__nav-img" src="assets/instagram.svg" width="40px" height="40px" alt="instagram"></a></li>
-                <li class="footer-nav__img"><a class="footer-nav__link" href="#"> 
-                    <img class="footer__nav-img" src="assets/pinter.svg" width="40px" height="40px" alt="pinter"></a></li>
-                <li class="footer-nav__img"><a class="footer-nav__link" href="#">
-                    <img class="footer__nav-img" src="assets/telegram.svg" width="40px" height="40px" alt="telegram"></a></li>
-            </ul>
-        </nav>
+           <div class="footer-nav">
+            <nav class="footer-nav">
+                <ul class="footer-nav__ul">
+                    <li class="footer-nav__item"><a class="nav__link nav_active nav__line-height" href="#">Articles</a></li>
+                    <li class="footer-nav__item"><a class="nav__link nav_active nav__line-height" href="#">About us</a></li>
+                    <li class="footer-nav__item"><a class="nav__link nav_active nav__line-height" href="#">Learn more</a></li>
+                </ul>
+            </nav>
+
+           </div>
+            
+                <div class="footer__imgSocial">
+                    <ul class="footer-nav__ul">
+                        <li class="footer-nav__img"><a class="footer-nav_active" href="#">
+                            <img class="footer__nav-img" src="assets/facebook.svg" width="40px" height="40px" alt="facebook"></a></li>
+                        <li class="footer-nav__img"><a class="footer-nav_active" href="#"> 
+                            <img class="footer__nav-img" src="assets/instagram.svg" width="40px" height="40px" alt="instagram"></a></li>
+                        <li class="footer-nav__img"><a class="footer-nav_active" href="#"> 
+                            <img class="footer__nav-img" src="assets/pinter.svg" width="40px" height="40px" alt="pinter"></a></li>
+                        <li class="footer-nav__img"><a class="footer-nav_active" href="#">
+                            <img class="footer__nav-img" src="assets/telegram.svg" width="40px" height="40px" alt="telegram"></a></li>
+                    </ul>
+
+                </div>
+                
+            
 
 
         </div>
+        
     </footer>
 
     
