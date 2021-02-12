@@ -6,7 +6,10 @@ body {
 .h1, p, h2, h3, h4, h5, h6  {
     margin: 0px;
 }
-
+.wrapper {
+    background-color: #333333;
+    width: 100%;
+}
 
 .wrapper__background-img {
     background-image: url(assets/fox.png);
@@ -27,10 +30,11 @@ body {
      
     font-style: normal;
     font-weight: normal;
-    font-size: 3.2em;
+    font-size: 3.1em;
     line-height: 1.9em;
     color: #F7F7F7;
-    padding-left: 15.73px;
+    padding-left: 16px;
+    text-transform: uppercase;
 
 }
 .nav__ul {
@@ -53,7 +57,7 @@ body {
 }
 .nav_active {
     color: #F7F7F7;
-    transition: 1s linear; 
+    transition: 0.5s linear;  
 }
 .nav_active:hover {
     
@@ -64,7 +68,7 @@ body {
 
 .nav_active-svg {
     
-    transition: 1s linear; 
+    transition: 0.5s linear; 
 }
 .nav_active-svg:hover {
     cursor: pointer;
@@ -92,7 +96,7 @@ body {
 }
 .button_active-default {
     color: #F7F7F7;
-    transition: 1s linear; 
+    transition: 0.5s linear; 
 }
 .button_active-default:hover {
     cursor: pointer;
@@ -136,18 +140,19 @@ body {
     padding-left: 120px ;
     padding-top: 51px ;
 }
-.button2 {
+.button__survival {
     font-family: Roboto;
     font-style: normal;
     font-weight: normal;
-    font-size: 2.3em;
+    font-size: 2.5em;
     line-height: 1.2em;
     color: #F7F7F7;
     background: transparent;
-    padding: 16px 42px;
     background-color: #CD6326;
+    width: 120px;
+    height: 60px;
 }
-.button__borders2 {
+.button__borders-survival {
     border: 2px solid #CD6326;
     border-radius: 5px;
     padding-left
@@ -155,7 +160,7 @@ body {
 
 .button_active-full {
     color: #F7F7F7;
-    transition: 1s linear; 
+    transition: 0.5s linear;  
 }
 .button_active-full:hover {
     cursor: pointer;
@@ -175,12 +180,20 @@ body {
 
 }
 
+
 .latest-articles {
+    background-color: #cccccc;
+    width: 100%;
+    
+}
+.wrapper-articles {
+    
     background-color: #cccccc;
     width: 1440px;
     margin: 0 auto;
     padding-bottom: 239px
 }
+
 
 .latest-articles__title {
     font-family: Open Sans;
@@ -309,22 +322,28 @@ body {
 
 }
 .input {
-     width: 510px;
-    height: 60px;
+    width: 533px;
+    height: 56px;
     font-family: Roboto;
     font-style: normal;
     font-weight: normal;
-    font-size: 23px;
-    line-height: 27px;
+    font-size: 2.7em;
     margin-top: 60px;
+    text-indent: 10px;
 }
 .footer {
+    background-color: #181617;
+    width: 100%;
+  
+}
+.wrapper-footer {
     background-color: #181617;
     background-image: url(assets/footerImg.png);
     width: 1440px;
     height: 360px;
     margin: 0 auto;
     display: flex;
+
 }
 
 .footer__container {
